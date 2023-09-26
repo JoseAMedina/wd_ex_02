@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend store</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Luckiest+Guy&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            </a>
+        </header>
+
+        <nav class="nav__store nav__bg">
+            <a class="nav__enlace" href="index.html">Store</a>
+            <a class="nav__enlace" href="about_us.html">About us</a>
+        </nav>
+
+        <main class="contenedor">
+            <h1>React JS</h1>
+
+            <div class="tshirt">
+                <img class="tshirt__image" src="img/3.jpg" alt="product image">
+
+                <div class="tshirt__content">
+                    <div class="tshirt__text">
+                        <p class="paragraph1">Vestibulum non urna vel arcu commodo sagittis. Maecenas libero 
+                        quam, bibendum in velit sit amet, mattis semper ligula non urna vel arcu commodo. 
+                        arcu commodo sagittis. Quam, bibendum in velit sit amet, mattis semper ligula 
+                        non urna vel arcu com.</p>
+
+                        <p class="paragraph2">Semper ligula non urna vel arcu commodo
+                        arcu commodo sagittis. Quam bibendum in velit sit amet, mattis semper ligula 
+                        non urna vel arcu com.</p>
+                    </div>
+
+                    <form class="formulary">
+                        <select class="formulary__field">
+                            <option disabled selected>--Select Size--</option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>XL</option>
+                         </select>
+                         <input class="formulary__number" type="number" placeholder="Number of t-shirts" 
+                         min="1">
+                         <input class="formulary__submit" type="submit" class="submit__text" 
+                         value="Add to cart">                  
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <P class="footer__texto">FrontEnd Store. All the rights reserved 2023</P>
+        </footer>
+    </body>
+</html>
